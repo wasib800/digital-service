@@ -7,7 +7,7 @@
     padding: 5px;
     justify-content: space-around;
     background-color: grey;
-    color: rgba(228, 7, 7, 0.795);
+    color: rgba(4, 3, 3, 0.795);
 }
 .items{
     display: flex;
@@ -20,4 +20,47 @@
     font-weight: bold;
     padding 5px;
     margin-right: 10px;
+}
+.banner-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(asset/image/background.jpg),linear-gradient(rgba(0,0,0,0.3), rgba(0, 0,0,0.4));
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: #161616;
+}
+.title-banner{
+    font-size: 85px;
+    font-weight: bold;
+}
+.primary{
+    color: rgb(234, 4, 50);
+}
+.description{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+.btn-discover{
+    padding: 15px 35px;
+    background-color: rgb(230, 70, 12);
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+
+}
+.btn-hire{
+    padding: 15px 35px;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+    background-color: orangered;
+    color: white;
+
 }
